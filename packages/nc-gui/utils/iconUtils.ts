@@ -182,6 +182,7 @@ import NcTwitter from '~icons/nc-icons/twitter'
 import NcFile from '~icons/nc-icons/file'
 import NcSettings from '~icons/nc-icons/settings'
 import NcHelp from '~icons/nc-icons/help'
+import NcAlertTriangle from '~icons/nc-icons/alert-triangle'
 
 // keep it for reference
 // todo: remove it after all icons are migrated
@@ -597,6 +598,7 @@ export const iconMap = {
   ncSettings: NcSettings,
   ncHelp: NcHelp,
   puzzle: MdiPuzzle,
+  alertTriangle: NcAlertTriangle,
 }
 
 export const getMdiIcon = (type: string): any => {
